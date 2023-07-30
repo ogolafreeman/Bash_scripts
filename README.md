@@ -11,5 +11,6 @@ This script displays the type of linux you are using and the verion.
 
 - To read the content of a PDF file in a bash script, you can use the pdftotext command-line tool. This tool is available on most Linux distributions and can be used to convert PDF files to plain text files. If you don't have it installed, you can usually install it through your package manager.
 
-- Replace path/to/your/file.pdf with the actual path to the PDF file you want to read. The script will use pdftotext to convert the PDF to plain text and save the content in a file with the same name as the PDF but with a .txt extension. The text file will be created in the same directory as the PDF file.
+- Use this command to run the file ./read_pdf.sh path/to/your/file.pdf
 
+- Replace path/to/your/file.pdf with the actual path to the PDF file you want to read. The script will use pdftotext to convert the PDF to plain text and save the content in a file with the same name as the PDF but with a .txt extension. The text file will be created in the same directory as the PDF file.
